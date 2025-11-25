@@ -9,12 +9,12 @@ public:
             {
                 sum += accounts[i][j];
             }
-            if(sum > richest)
-            {
-                richest = sum;
-            }
+            // if(sum > richest)
+            // {
+            //     richest = sum;
+            // }
+            richest = max(richest, sum);
         }
-
         return richest;
     }
 };
