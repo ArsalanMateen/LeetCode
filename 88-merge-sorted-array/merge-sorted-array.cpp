@@ -4,7 +4,7 @@ public:
         int firstPtr = m - 1;
         int secondPtr = n - 1;
 
-        for (int i = (m+n)-1; i>=0; i--){
+        for (int i = (m+n)-1; i>-1; i--){
             if (secondPtr < 0){
                 break;
             }
